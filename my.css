@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+button {
+  border: none;
+}
+.home {
+  background: url(/img/background.png);
+}
+.y-center {
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+/* header */
+header {
+  display: flex;
+  color: #424551;
+  justify-content: space-between;
+}
+.navigation {
+  display: flex;
+  margin-top: 33px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #424551;
+  margin-right: 40px;
+}
+.nav-registr {
+  text-decoration: none;
+  color: #424551;
+}
+.btn-block {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+.btn-home {
+  width: 206px;
+  height: 52px;
+  display: flex;
+  color: #ffff;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+  border-radius: 4px;
+}
+.registration {
+  display: flex;
+  margin-top: 20px;
+}
+.registration-block {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 60px;
+}
+/* header-end*/
+/* main page */
+/* home-content */
+
+.home-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 156px;
+}
+
+.title-main {
+  margin-top: 20px;
+  font-weight: 1200;
+  font-size: 64px;
+  color: #1e212c;
+}
+
+/* buttons */
+.buttons {
+  display: flex;
+  margin-top: 60px;
+}
+.btn-about {
+  width: 121px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ff3f3a;
+  border-radius: 4px;
+  color: #ff3f3a;
+  margin-right: 20px;
+  background: none;
+}
+.btn-explore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 201px;
+  height: 52px;
+  color: #ffff;
+  background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+  border-radius: 4px;
+}
+/* home-content-end */
+/* guarantee-block */
+
+.guarantee-blocks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+.block-guarantee {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.elips {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ff3f3a;
+}
+
+.title-guarantee {
+  font-weight: 900;
+  font-size: 46px;
+  color: #1e212c;
+  margin-right: 10px;
+}

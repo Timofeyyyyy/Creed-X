@@ -5,6 +5,16 @@
 }
 button {
   border: none;
+  cursor: pointer;
+}
+.title {
+  font-weight: 900;
+  font-size: 46px;
+  color: #1e212c;
+}
+p {
+  font-size: 16px;
+  color: #424551;
 }
 .home {
   background: url(./img/background.png);
@@ -136,4 +146,56 @@ header {
   font-size: 46px;
   color: #1e212c;
   margin-right: 10px;
+}
+/* home-content-end */
+/* info */
+.dots {
+  position: absolute;
+  left: 0;
+  top: 1320px;
+}
+.circles {
+  position: absolute;
+  right: 0;
+  top: 1520px;
+}
+.info-block {
+  margin-left: 135px;
+}
+.info-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 180px;
+}
+.info-text {
+  display: flex;
+  margin-top: 12px;
+}
+.info-subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #1e212c;
+}
+.info-btn {
+  width: 161px;
+  height: 44px;
+  background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+  border-radius: 4px;
+  color: #ffff;
+  margin-top: 50px;
+}
+.info-vector {
+  width: 15px;
+  height: 15px;
+  margin-right: 16px;
+}
+.info-p {
+  font-size: 16px;
+  color: #424551;
+  font-weight: 400;
 }

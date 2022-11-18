@@ -6,4 +6,4 @@ hamburger.addEventListener("click", function () {
   navMenu.classList.toggle("active");
 });
 
-document.querySelector(".nav-link").forEach((n) => n.add);
+document.querySelector("nav-link").forEach((n) => n.add);
